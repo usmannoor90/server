@@ -1,10 +1,9 @@
-const express =require("express");
+const express = require("express");
 
-const router = express.Router()
+const router = express.Router();
 
-router.get("/courses",(req,res)=>{
-    res.send("course you want to see")
-})
+router.get("/course", (req, res) => {
+  res.send({ id: 1, message: "sdfsdfsdf", essage: "sdfdsfsdfsdf" });
+});
 
-
-module.exports=router
+module.exports = router;
